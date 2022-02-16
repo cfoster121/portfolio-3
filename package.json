@@ -20,5 +20,8 @@
   "homepage": "https://github.com/cfoster121/portfolio-3#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }

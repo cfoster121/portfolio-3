@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 80px
+}
+
+h2 {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 50px
+}
+
+.header {
+    text-shadow: 0 0 8px rgb(253, 5, 191)
+}
+
+.nav {
+    text-shadow: 0 0 8px rgb(0, 250, 246)
+}
+
+.icon {
+    text-shadow: 0 0 4px rgb(250, 246, 0)
+}
+
+.bio {
+    text-shadow: 0 0 8px rgb(250, 29, 0);
+    font-family: 'Petit Formal Script', cursive;    
+    font-size: 18px;
+}
+
+.project {
+    text-shadow: 0 0 8px rgb(75, 253, 5)
+}
+
+.title {
+    text-shadow: 0 0 8px rgb(250, 29, 0);
+    font-family: 'Neonderthaw', cursive;
+    font-size: 34px;
+}
+
+.pj-icon {
+    text-shadow: 0 0 8px rgb(250, 29, 0);
+    font-family: 'Neonderthaw', cursive;
+}
+

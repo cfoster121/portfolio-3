@@ -13,7 +13,7 @@ At the bottom of the page are icons for contact information. Clicking the email 
 
   
 ## Essential Code
-![title](link)
+![](assets/images/animation.gif)
 
 
 
@@ -28,14 +28,14 @@ At the bottom of the page are icons for contact information. Clicking the email 
     
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://cfoster121.github.io/portfolio-3/)
 
 
 ## Author
 
 **Courtney Foster** 
 
-- [Link to Portfolio Site](https://cfoster121.github.io/portfolio/)
+- [Link to Portfolio Site](https://cfoster121.github.io/portfolio-3/)
 - [Link to Github](https://github.com/cfoster121)
 - [Link to LinkedIn](https://www.linkedin.com/in/courtney-foster-0b364575/)
 

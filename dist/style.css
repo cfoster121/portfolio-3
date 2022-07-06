@@ -41,3 +41,9 @@ h2 {
     font-family: 'Neonderthaw', cursive;
 }
 
+.desc {
+    color:rgb(204, 225, 249);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}

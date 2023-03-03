@@ -639,7 +639,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .gap-8 {
-  gap: 2rem;
+  gap: 8rem;
 }
 
 .gap-x-8 {

@@ -39,7 +39,7 @@
     <!-- Nav Bar -->
     <nav>
         <div class="flex justify-center">
-            <div class="container flex block justify-around text-center mt-10 border-b-8 border-white border-double">
+            <div class="container flex block sm-col justify-around text-center mt-10 border-b-8 border-white border-double">
                 <h2 class="nav text-white animate__animated animate__bounce"><a href="https://github.com/cfoster121"
                         target="blank">
                         GitHub</a></h2>
@@ -54,210 +54,25 @@
     </nav>
 
     <!-- Bio -->
-    <div class="flex justify-center mt-20 mb-20">
-        <div class="w-1/2 rounded-full text-center p-10 border border-8 border-white border-double">
-            <p class="bio text-red-200">UCB Full Stack Coding bootcamp graduate with a background in biology and
-                medicine. Self-motivated problem solving full stack engineer with experience with Javascript, SQL, MERN,
-                Node, Express, restful APIs, and more.
-                <br /><br />
-                2018 Sonoma State University graduate with Bachelor of Science in Biology (Physiology)
-            </p>
-        </div>
-    </div>
+    <div class="flex items-center justify-center mt-20 mb-20">
 
-    <!-- Individual Projects Container -->
-    <!-- Header -->
-    <div class="flex justify-center">
-        <div class="container flex inline justify-around text-center mt-10 border-t-8 border-white border-double">
-            <h2 class="project mt-20 mb-10 nav underline text-white animate__animated animate__bounce">
-                Projects</h2>
+        <div class="rounded-full text-center border border-8 border-white border-double">
+        
+            <p class="bio text-red-200 mt-20">Software Engineer passionate about developing innovative technology to make
+                a real-world impact on our communities. Self motivated, forward thinking organized problem solver
+                with a growth mindset, successful in collaborative work environments. Strong work ethic,
+                interpersonal, and written and verbal communication skills.
+            </p>
+    
+        </div>
+        <div class="rounded-full text-center border border-8 border-white border-double p-2">
+            <img src="../assets/images/photo-round.png"/>
         </div>
     </div>
 
     <!-- Project Cards -->
     <div>
         <div>
-            <section class="grid grid-cols-5 mb-20 gap-8">
-                <!-- Column 1 (Placeholder) -->
-                <div></div>
-
-                <!-- Column 2 (Weather Dashboard)-->
-                <div>
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class="relative justify-center mb-[20px] left-[10px]">
-                        <a href="https://github.com/cfoster121/weather-dashboard" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-
-                        <!-- Deployed Page Link and Icon -->
-                        <a href="https://cfoster121.github.io/weather-dashboard/" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-solid fa-link fa-xl"></i></a>
-                    </div>
-
-                    <!-- Project Icon -->
-                    <div>
-                        <img class="relative w-80 right-20 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
-                            src="assets/images/weather.png"></img>
-
-                        <!-- Project Title -->
-                        <p class="relative text-center right-20 title text-red-200 mt-[20px]">Weather Dashboard</p>
-
-                        <!--Project Description -->
-                        <div class="outline outline-2 outline-white outline-double relative right-20 mt-[20px]">
-                            <p class="text-center desc">User can search any city and view the current weather
-                                conditions, temperature, wind speed, and color coordinated UV index. A 5 day forecast is
-                                also displayed showing day of the week, date, weather condition, temperature high,
-                                temperature low, and humidity. Search history is saved at the bottom of the page as an
-                                clickable list.<br><br>Built With: HTML, CSS, Javascript, JQuery, Bootstrap CSS
-                                Framework, Google Fonts, Open Weather API, Flat Icon Royalty Free Images</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Column 3 (Team Profile Generator) -->
-                <div>
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class="relative justify-center mb-[20px] left-[110px]">
-                        <a href="https://github.com/cfoster121/team-profile-cli" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-                    </div>
-
-                    <!-- Project Icon -->
-                    </a><img
-                        class="relative w-80 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
-                        src="assets/images/cli.png"></img>
-
-                    <!-- Project Title -->
-                    <p class="relative text-center title text-red-200 mt-[20px]">Team Profile Generator</p>
-
-                    <!--Project Description -->
-                    <div class="outline outline-2 outline-white outline-double relative mt-[20px]">
-                        <p class="text-center desc">This application allows the user to create a web page displaying
-                            company team members via CLI <br><br>
-                            Built With: HTML, TailwindCSS, Javascript, jQuery, Node.js, Inquirer.js, Jest.js</p>
-                    </div>
-
-                </div>
-
-                <!-- Column 4 (Timed Quiz) -->
-                <div>
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class="relative justify-center mb-[20px] left-[170px]">
-                        <a href="https://github.com/cfoster121/timed-code-quiz" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-
-                        <!-- Deployed Page Link and Icon -->
-                        <a href="https://cfoster121.github.io/timed-astronomy-quiz/" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-solid fa-link fa-xl"></i></a>
-                    </div>
-
-                    <!-- Project Icon -->
-                    <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 left-20"
-                        src="assets/images/quiz.png"></img>
-
-                    <!-- Project Title -->
-                    <p class="relative text-center left-20 title text-red-200 mt-[20px]">Timed<br>Quiz</p>
-
-                    <!--Project Description -->
-                    <div class="outline outline-2 outline-white outline-double relative left-20 mt-[20px]">
-                        <p class="text-center desc">User is presented with multiple choice questions. Incorrect answers
-                            result in 10 second time penalty. Score is recorded after game is completed. Local scores
-                            are saved and displayed once game is complete.<br><br>Built With: HTML, CSS, Javascript</p>
-                    </div>
-
-                </div>
-
-                <!-- Column 5 (Placeholder) -->
-                <div></div>
-            </section>
-
-
-            <!-- Collaborative Projects Container -->
-            <!-- Header -->
-            <div class="flex justify-center">
-                <div
-                    class="container flex inline justify-around text-center mt-10 border-t-8 border-white border-double">
-                    <h2 class="project mt-20 mb-10 nav underline text-white animate__animated animate__bounce">
-                        Collaborative Projects</h2>
-                </div>
-            </div>
-
-            <!-- Project Cards -->
-            <section class="grid grid-cols-4 mb-20 gap-8">
-
-                <!-- Column 1 (Placeholder) -->
-                <div></div>
-
-                <!-- Column 2 (Quizinator) -->
-                <div>
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class="relative justify-center mb-[20px] left-[60px]">
-                        <a href="https://github.com/cfoster121/quizinator" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-
-                        <!-- Deployed Page Link and Icon -->
-                        <a href="https://quizinator.home.jgarrettcorbin.com/ " target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-solid fa-link fa-xl"></i></a>
-                    </div>
-
-                    <!-- Project Icon -->
-                    <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 right-[70px]"
-                        src="assets/images/quizinator.png"></img>
-
-                    <!-- Project Title -->
-                    <p class="relative text-center title text-red-200 mt-[20px] right-[70px]">Quizinator</p>
-
-                    <!--Project Description -->
-                    <div class="outline outline-2 outline-white outline-double relative right-[70px] mt-[20px]">
-                        <p class="text-center desc">User can create and take quizzes organized by category.
-                            Quizzes save high scores. User can take quizzes without being logged in, but must log in to
-                            create a new quiz or save their score.<br><br>Built With: HTML, CSS, jawsDB, SQL, Sequelize,
-                            Express.js, Node.js, Heroku, Bcrypt, Dotenv</p>
-                    </div>
-                </div>
-
-
-                <!-- Column 3 (Astronomy Dashboard) -->
-                <div>
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class="relative justify-center mb-[20px] left-[195px]">
-                        <a href="https://github.com/cfoster121/astronomy-dashboard" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-
-                        <!-- Deployed Page Link and Icon -->
-                        <a href="https://dazedchou.github.io/Astronomy-Dashboard/" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-solid fa-link fa-xl"></i></a>
-                    </div>
-
-                    <!-- Project Icon -->
-                    <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 left-[70px]"
-                        src="assets/images/astro.png"></img>
-
-                    <!-- Project Title -->
-                    <p class="relative text-center title text-red-200 mt-[20px] left-[70px]">Astronomy<br>Dashboard</p>
-
-                    <!--Project Description -->
-                    <div class="outline outline-2 outline-white outline-double relative left-[70px] mt-[20px]">
-                        <p class="text-center desc">The website includes information such as weather, visibility, cloud
-                            coverage, current moon phase, constellations that are visible at this time of year, upcoming
-                            meteor showers, and the latest news in astronomy.<br><br>Built With: HTML, CSS, Javascript,
-                            JQuery, Moment.js, TailwindCSS, DataTables</p>
-                    </div>
-                </div>
-
-                <!-- Column 4 (Placeholder) -->
-                <div></div>
-            </section>
-
             <!-- Continued Education Container -->
             <!-- Header -->
             <div class="flex justify-center">
@@ -268,6 +83,108 @@
                 </div>
             </div>
 
+            <section class="grid grid-cols-5 mb-20 gap-8">
+                <!-- Column 1 (Placeholder) -->
+                <div></div>
+
+                <!-- Column 2 (100 Days of Code)-->
+                <div>
+                    <!-- GitHub Repo Link and Icon -->
+                    <div class="relative justify-center mb-[20px] left-[10px]">
+                        <a href="https://github.com/cfoster121/100-Days" target="blank"
+                            class="pj-icon p-[8px] text-white">
+                            <i class="fa-brands fa-github fa-xl"></i></a>
+
+                        <!-- Deployed Page Link and Icon -->
+                        <!-- <a href="**********************" target="blank"
+                            class="pj-icon p-[8px] text-white">
+                            <i class="fa-solid fa-link fa-xl"></i></a> -->
+                    </div>
+
+                    <!-- Project Icon -->
+                    <div>
+                        <img class="relative w-80 right-20 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
+                            src="assets/images/100-days.png"></img>
+
+                        <!-- Project Title -->
+                        <p class="relative text-center right-20 title text-red-200 mt-[20px]">100 Days<br />Of
+                            Code<br />Web Development
+                        </p>
+
+                        <!--Project Description -->
+                        <!-- <div class="outline outline-2 outline-white outline-double relative right-20 mt-[20px]">
+                            <p class="text-center desc">********DESCRIPTION*********<br><br>Built With: **************</p>
+                        </div> -->
+
+                    </div>
+                </div>
+
+                <!-- Column 3 (Data Structures and Algorithms) -->
+                <div>
+                    <!---- GitHub Repo Link and Icon -->
+                    <div class="relative justify-center mb-[20px] left-[110px]">
+                        <a href="" target="blank" class="pj-icon p-[8px] text-white">
+                            <i class="fa-brands fa-github fa-xl"></i></a>
+                    </div>
+
+                    <!-- Project Icon -->
+                    </a><img
+                        class="relative w-80 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
+                        src="assets/images/ds-algo.png"></img>
+
+                    <!-- Project Title -->
+                    <p class="relative text-center title text-red-200 mt-[20px]">Data Structures<br />& Algorithms</p>
+
+                    <!--Project Description -->
+                    <!-- <div class="outline outline-2 outline-white outline-double relative mt-[20px]">
+                        <p class="text-center desc"> ********DESCRIPTION********* <br><br>
+                            Built With: *********</p>
+                    </div> -->
+
+                </div>
+
+                <!-- Column 4 (React Complete Guide) -->
+                <div>
+                    <!-- GitHub Repo Link and Icon -->
+                    <div class="relative justify-center mb-[20px] left-[170px]">
+                        <a href="https://github.com/cfoster121/react-complete-guide" target="blank"
+                            class="pj-icon p-[8px] text-white">
+                            <i class="fa-brands fa-github fa-xl"></i></a>
+
+                        <!-- Deployed Page Link and Icon -->
+                        <!-- <a href=**********" target="blank"
+                            class="pj-icon p-[8px] text-white">
+                            <i class="fa-solid fa-link fa-xl"></i></a> -->
+                    </div>
+
+                    <!-- Project Icon -->
+                    <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 left-20"
+                        src="assets/images/react.png"></img>
+
+                    <!-- Project Title -->
+                    <p class="relative text-center left-20 title text-red-200 mt-[20px]">React<br>Complete Guide</p>
+
+                    <!--Project Description -->
+                    <!-- <div class="outline outline-2 outline-white outline-double relative left-20 mt-[20px]">
+                        <p class="text-center desc">*************DESCRIPTION*********<br><br>Built With:**************</p>
+                    </div> -->
+
+                </div>
+
+                <!-- Column 5 (Placeholder) -->
+                <div></div>
+            </section>
+
+            <!-- Individual Projects Container -->
+            <!-- Header -->
+            <div class="flex justify-center">
+                <div
+                    class="container flex inline justify-around text-center mt-10 border-t-8 border-white border-double">
+                    <h2 class="project mt-20 mb-10 nav underline text-white animate__animated animate__bounce">
+                        Projects</h2>
+                </div>
+            </div>
+
             <!-- Project Cards -->
             <div>
                 <div>
@@ -275,42 +192,50 @@
                         <!-- Column 1 (Placeholder) -->
                         <div></div>
 
-                        <!-- Column 2 (100 Days of Code)-->
+                        <!-- Column 2 (Weather Dashboard)-->
                         <div>
                             <!-- GitHub Repo Link and Icon -->
                             <div class="relative justify-center mb-[20px] left-[10px]">
-                                <a href="https://github.com/cfoster121/100-Days" target="blank"
+                                <a href="https://github.com/cfoster121/weather-dashboard" target="blank"
                                     class="pj-icon p-[8px] text-white">
                                     <i class="fa-brands fa-github fa-xl"></i></a>
 
                                 <!-- Deployed Page Link and Icon -->
-                                <!-- <a href="**********************" target="blank"
+                                <a href="https://cfoster121.github.io/weather-dashboard/" target="blank"
                                     class="pj-icon p-[8px] text-white">
-                                    <i class="fa-solid fa-link fa-xl"></i></a> -->
+                                    <i class="fa-solid fa-link fa-xl"></i></a>
                             </div>
 
                             <!-- Project Icon -->
                             <div>
                                 <img class="relative w-80 right-20 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
-                                    src="assets/images/100-days.png"></img>
+                                    src="assets/images/weather.png"></img>
 
                                 <!-- Project Title -->
-                                <p class="relative text-center right-20 title text-red-200 mt-[20px]">100 Days<br/>Of Code<br/>Web Development
+                                <p class="relative text-center right-20 title text-red-200 mt-[20px]">Weather Dashboard
                                 </p>
 
                                 <!--Project Description -->
-                                <!-- <div class="outline outline-2 outline-white outline-double relative right-20 mt-[20px]">
-                                    <p class="text-center desc">********DESCRIPTION*********<br><br>Built With: **************</p>
-                                </div> -->
+                                <div class="outline outline-2 outline-white outline-double relative right-20 mt-[20px]">
+                                    <p class="text-center desc">User can search any city and view the current weather
+                                        conditions, temperature, wind speed, and color coordinated UV index. A 5 day
+                                        forecast is
+                                        also displayed showing day of the week, date, weather condition, temperature
+                                        high,
+                                        temperature low, and humidity. Search history is saved at the bottom of the page
+                                        as an
+                                        clickable list.<br><br>Built With: HTML, CSS, Javascript, JQuery, Bootstrap CSS
+                                        Framework, Google Fonts, Open Weather API, Flat Icon Royalty Free Images</p>
+                                </div>
 
                             </div>
                         </div>
 
-                        <!-- Column 3 (Data Structures and Algorithms) -->
+                        <!-- Column 3 (Team Profile Generator) -->
                         <div>
-                           <!---- GitHub Repo Link and Icon -->
+                            <!-- GitHub Repo Link and Icon -->
                             <div class="relative justify-center mb-[20px] left-[110px]">
-                                <a href="" target="blank"
+                                <a href="https://github.com/cfoster121/team-profile-cli" target="blank"
                                     class="pj-icon p-[8px] text-white">
                                     <i class="fa-brands fa-github fa-xl"></i></a>
                             </div>
@@ -318,48 +243,143 @@
                             <!-- Project Icon -->
                             </a><img
                                 class="relative w-80 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
-                                src="assets/images/ds-algo.png"></img>
+                                src="assets/images/cli.png"></img>
 
                             <!-- Project Title -->
-                            <p class="relative text-center title text-red-200 mt-[20px]">Data Structures<br/>& Algorithms</p>
+                            <p class="relative text-center title text-red-200 mt-[20px]">Team Profile Generator</p>
 
                             <!--Project Description -->
-                            <!-- <div class="outline outline-2 outline-white outline-double relative mt-[20px]">
-                                <p class="text-center desc"> ********DESCRIPTION********* <br><br>
-                                    Built With: *********</p>
-                            </div> -->
+                            <div class="outline outline-2 outline-white outline-double relative mt-[20px]">
+                                <p class="text-center desc">This application allows the user to create a web page
+                                    displaying
+                                    company team members via CLI <br><br>
+                                    Built With: HTML, TailwindCSS, Javascript, jQuery, Node.js, Inquirer.js, Jest.js</p>
+                            </div>
 
                         </div>
 
-                        <!-- Column 4 (React Complete Guide) -->
+                        <!-- Column 4 (Timed Quiz) -->
                         <div>
                             <!-- GitHub Repo Link and Icon -->
                             <div class="relative justify-center mb-[20px] left-[170px]">
-                                <a href="https://github.com/cfoster121/react-complete-guide" target="blank"
+                                <a href="https://github.com/cfoster121/timed-code-quiz" target="blank"
                                     class="pj-icon p-[8px] text-white">
                                     <i class="fa-brands fa-github fa-xl"></i></a>
 
                                 <!-- Deployed Page Link and Icon -->
-                                <!-- <a href=**********" target="blank"
+                                <a href="https://cfoster121.github.io/timed-astronomy-quiz/" target="blank"
                                     class="pj-icon p-[8px] text-white">
-                                    <i class="fa-solid fa-link fa-xl"></i></a> -->
+                                    <i class="fa-solid fa-link fa-xl"></i></a>
                             </div>
 
                             <!-- Project Icon -->
                             <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 left-20"
-                                src="assets/images/react.png"></img>
+                                src="assets/images/quiz.png"></img>
 
                             <!-- Project Title -->
-                            <p class="relative text-center left-20 title text-red-200 mt-[20px]">React<br>Complete Guide</p>
+                            <p class="relative text-center left-20 title text-red-200 mt-[20px]">Timed<br>Quiz</p>
 
                             <!--Project Description -->
-                            <!-- <div class="outline outline-2 outline-white outline-double relative left-20 mt-[20px]">
-                                <p class="text-center desc">*************DESCRIPTION*********<br><br>Built With:**************</p>
-                            </div> -->
+                            <div class="outline outline-2 outline-white outline-double relative left-20 mt-[20px]">
+                                <p class="text-center desc">User is presented with multiple choice questions. Incorrect
+                                    answers
+                                    result in 10 second time penalty. Score is recorded after game is completed. Local
+                                    scores
+                                    are saved and displayed once game is complete.<br><br>Built With: HTML, CSS,
+                                    Javascript</p>
+                            </div>
 
                         </div>
 
                         <!-- Column 5 (Placeholder) -->
+                        <div></div>
+                    </section>
+
+
+                    <!-- Collaborative Projects Container -->
+                    <!-- Header -->
+                    <div class="flex justify-center">
+                        <div
+                            class="container flex inline justify-around text-center mt-10 border-t-8 border-white border-double">
+                            <h2 class="project mt-20 mb-10 nav underline text-white animate__animated animate__bounce">
+                                Collaborative Projects</h2>
+                        </div>
+                    </div>
+
+                    <!-- Project Cards -->
+                    <section class="grid grid-cols-4 mb-20 gap-8">
+
+                        <!-- Column 1 (Placeholder) -->
+                        <div></div>
+
+                        <!-- Column 2 (Quizinator) -->
+                        <div>
+                            <!-- GitHub Repo Link and Icon -->
+                            <div class="relative justify-center mb-[20px] left-[60px]">
+                                <a href="https://github.com/cfoster121/quizinator" target="blank"
+                                    class="pj-icon p-[8px] text-white">
+                                    <i class="fa-brands fa-github fa-xl"></i></a>
+
+                                <!-- Deployed Page Link and Icon -->
+                                <a href="https://quizinator.home.jgarrettcorbin.com/ " target="blank"
+                                    class="pj-icon p-[8px] text-white">
+                                    <i class="fa-solid fa-link fa-xl"></i></a>
+                            </div>
+
+                            <!-- Project Icon -->
+                            <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 right-[70px]"
+                                src="assets/images/quizinator.png"></img>
+
+                            <!-- Project Title -->
+                            <p class="relative text-center title text-red-200 mt-[20px] right-[70px]">Quizinator</p>
+
+                            <!--Project Description -->
+                            <div class="outline outline-2 outline-white outline-double relative right-[70px] mt-[20px]">
+                                <p class="text-center desc">User can create and take quizzes organized by category.
+                                    Quizzes save high scores. User can take quizzes without being logged in, but must
+                                    log in to
+                                    create a new quiz or save their score.<br><br>Built With: HTML, CSS, jawsDB, SQL,
+                                    Sequelize,
+                                    Express.js, Node.js, Heroku, Bcrypt, Dotenv</p>
+                            </div>
+                        </div>
+
+
+                        <!-- Column 3 (Astronomy Dashboard) -->
+                        <div>
+                            <!-- GitHub Repo Link and Icon -->
+                            <div class="relative justify-center mb-[20px] left-[195px]">
+                                <a href="https://github.com/cfoster121/astronomy-dashboard" target="blank"
+                                    class="pj-icon p-[8px] text-white">
+                                    <i class="fa-brands fa-github fa-xl"></i></a>
+
+                                <!-- Deployed Page Link and Icon -->
+                                <a href="https://dazedchou.github.io/Astronomy-Dashboard/" target="blank"
+                                    class="pj-icon p-[8px] text-white">
+                                    <i class="fa-solid fa-link fa-xl"></i></a>
+                            </div>
+
+                            <!-- Project Icon -->
+                            <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4 relative w-80 left-[70px]"
+                                src="assets/images/astro.png"></img>
+
+                            <!-- Project Title -->
+                            <p class="relative text-center title text-red-200 mt-[20px] left-[70px]">
+                                Astronomy<br>Dashboard</p>
+
+                            <!--Project Description -->
+                            <div class="outline outline-2 outline-white outline-double relative left-[70px] mt-[20px]">
+                                <p class="text-center desc">The website includes information such as weather,
+                                    visibility, cloud
+                                    coverage, current moon phase, constellations that are visible at this time of year,
+                                    upcoming
+                                    meteor showers, and the latest news in astronomy.<br><br>Built With: HTML, CSS,
+                                    Javascript,
+                                    JQuery, Moment.js, TailwindCSS, DataTables</p>
+                            </div>
+                        </div>
+
+                        <!-- Column 4 (Placeholder) -->
                         <div></div>
                     </section>
 

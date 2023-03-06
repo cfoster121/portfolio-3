@@ -39,11 +39,13 @@
     <!-- Nav Bar -->
     <nav>
         <div class="bg-blue-200 flex justify-center">
-            <div class="flex flex-col md:flex-row w-full py-10 text-center justify-around border-b-8 border-white border-double">
+            <div
+                class="bg-purple-300 flex flex-col md:flex-row w-full py-10 text-center justify-around border-b-8 border-white border-double">
                 <h2 class="nav text-white animate__animated animate__bounce"><a href="https://github.com/cfoster121"
                         target="blank">
                         GitHub</a></h2>
-                <h2 class="nav text-white animate__animated animate__bounce"><a href="https://docs.google.com/document/d/1-XQ-9eSjFdpexgHXthPacCcs6lYaImQ5WlXRJZ09rh0/edit?usp=sharing"
+                <h2 class="nav text-white animate__animated animate__bounce"><a
+                        href="https://docs.google.com/document/d/1-XQ-9eSjFdpexgHXthPacCcs6lYaImQ5WlXRJZ09rh0/edit?usp=sharing"
                         target="blank">
                         Resumé</a></h2>
                 <h2 class="nav text-white animate__animated animate__bounce"><a
@@ -54,121 +56,80 @@
     </nav>
 
     <!-- Bio -->
-<div class="bg-yellow-200 flex flex-col md:flex-row">
-    <div class="bg-black md:w-1/2 xs:w-full flex justify-center rounded-full text-center border border-8 border-white border-double p-2">
-        <!-- <p class="bio text-red-200 mt-20">Software Engineer passionate about developing innovative technology to make
-                a real-world impact on our communities. Self motivated, forward thinking organized problem solver
-                with a growth mindset, successful in collaborative work environments. Strong work ethic,
-                interpersonal, and written and verbal communication skills.
-            </p>
-     -->
-     <p class="bg-purple-500 object-contain p-10 rounded-full">Software Engineer passionate about developing innovative technology to make
-        a real-world impact on our communities. Self motivated, forward thinking organized problem solver
-        with a growth mindset, successful in collaborative work environments. Strong work ethic,
-        interpersonal, and written and verbal communication skills.</p>
+    <div class="flex flex-col md:flex-row justify-center gap-x-10 p-20">
+        <div class="flex md:w-2/3 xs:w-full rounded-full justify-center border border-8 border-white border-double p-2">
+            <div class="flex self-center items-center rounded-full h-full px-20 py-10">
+                <p class="bio text-red-200 text-center">
+                    Software Engineer passionate about developing innovative technology to make
+                    a real-world impact on our communities. Self motivated, forward thinking organized problem
+                    solver
+                    with a growth mindset, successful in collaborative work environments. Strong work ethic,
+                    interpersonal, and written and verbal communication skills.</p>
+            </div>
         </div>
-        <div class="bg-green-400 flex md:w-1/2 xs:w-full rounded-full text-center border border-8 border-white border-double p-2">
-            <img class="object-contain" src="../assets/images/photo-round.png"/>
+        <div class="flex md:w-1/3 xs:w-full rounded-full text-center border border-8 border-white border-double p-2">
+            <img class="object-contain" src="../assets/images/photo-round.png" />
         </div>
     </div>
 
     <!-- Project Cards -->
-    <div class="bg-pink-400">
+    <div class="main bg-pink-400 border-t-8 border-white border-double">
         <div>
+
             <!-- Continued Education Container -->
+
             <!-- Header -->
-            <div class=" flex justify-center">
-                <div
-                    class="bg-blue-300 text-center w-full mt-10 border-t-8 border-white border-double">
-                    <h2 class="project mt-20 mb-10 nav underline text-white animate__animated animate__bounce">
-                        Continued Education</h2>
-                </div>
+            <div class="bg-blue-300 flex justify-center text-center">
+                <h2 class="bg-blue-600 project my-10 h-full nav underline text-white animate__animated animate__bounce">
+                    Continued Education</h2>
             </div>
 
-            <section class="flex flex-wrap mb-20 gap-8">
-                <!-- Column 1 (Placeholder) -->
-                <div class="w-1/6"></div>
+            <!-- Projects -->
+            <section class="flex md:flex-row flex-col mb-10 gap-14 justify-center items-center">
 
-                <!-- Column 2 (Python)-->
-                <div class="w-auto">
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class=" justify-center mb-[20px] left-[10px]">
+                <!-- Course (Python)-->
+                <div class="md:w-1/4 w-2/3">
+                    <!-- GitHub Link and Icon -->
+                    <div class="my-4">
                         <a href="https://github.com/cfoster121/python-40-days" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
+                            class="pj-icon text-white">
+                            <i class="fa-brands fa-github fa-2xl"></i></a>
                     </div>
-
-                    <!-- Project Icon -->
+                    <!-- Image / Title -->
                     <div>
-                        <img class="right-20 rounded-full outline outline-8 outline-white outline-double outline-offset-4"
+                        <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4"
                             src="assets/images/python.png"></img>
-
-                        <!-- Project Title -->
-                        <p class=" text-center right-20 title text-red-200 mt-[20px]">Python Mega<br />Course
+                        <p class="title text-center text-red-200 mt-6">Python Mega<br />Course
                         </p>
-
-                        <!--Project Description -->
-                        <!-- <div class="outline outline-2 outline-white outline-double relative right-20 mt-[20px]">
-                            <p class="text-center desc">********DESCRIPTION*********<br><br>Built With: **************</p>
-                        </div> -->
-
                     </div>
                 </div>
 
-                <!-- Column 3 (Data Structures and Algorithms) -->
-                <div class="w-auto">
-                    <!---- GitHub Repo Link and Icon -->
-                    <div class=" justify-center mb-[20px] left-[110px]">
-                        <a href="" target="blank" class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
+                <!-- Course (Algorithms and Data Structures) -->
+                <div class="md:w-1/4 w-2/3">
+                    <!---- Link and Icon -->
+                    <div class="my-4">
+                        <a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/" target="blank" class="pj-icon text-white">
+                            <i class="fa-solid fa-link fa-2xl"></i></a>
                     </div>
-
-                    <!-- Project Icon -->
-                    </a><img
-                        class="rounded-full outline outline-8 outline-white outline-double outline-offset-4"
+                    <!-- Image / Title -->
+                    </a><img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4"
                         src="assets/images/ds-algo.png"></img>
-
-                    <!-- Project Title -->
-                    <p class=" text-center title text-red-200 mt-[20px]">Data Structures<br />& Algorithms</p>
-
-                    <!--Project Description -->
-                    <!-- <div class="outline outline-2 outline-white outline-double relative mt-[20px]">
-                        <p class="text-center desc"> ********DESCRIPTION********* <br><br>
-                            Built With: *********</p>
-                    </div> -->
-
+                    <p class="title text-center text-red-200 mt-6">Algorithms &<br/>Data Structures</p>
                 </div>
 
-                <!-- Column 4 (React Complete Guide) -->
-                <div class="w-auto">
-                    <!-- GitHub Repo Link and Icon -->
-                    <div class=" justify-center mb-[20px] left-[170px]">
+                <!-- Course (React Complete Guide) -->
+                <div class="md:w-1/4 w-2/3">
+                    <!-- GitHub Link and Icon -->
+                    <div class="my-4">
                         <a href="https://github.com/cfoster121/react-complete-guide" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-brands fa-github fa-xl"></i></a>
-
-                        <!-- Deployed Page Link and Icon -->
-                        <!-- <a href=**********" target="blank"
-                            class="pj-icon p-[8px] text-white">
-                            <i class="fa-solid fa-link fa-xl"></i></a> -->
+                            class="pj-icon text-white">
+                            <i class="fa-brands fa-github fa-2xl"></i></a>
                     </div>
-
-                    <!-- Project Icon -->
+                    <!-- Image / Title -->
                     <img class="rounded-full outline outline-8 outline-white outline-double outline-offset-4"
                         src="assets/images/react.png"></img>
-
-                    <!-- Project Title -->
-                    <p class=" text-center left-20 title text-red-200 mt-[20px]">React<br>Complete Guide</p>
-
-                    <!--Project Description -->
-                    <!-- <div class="outline outline-2 outline-white outline-double relative left-20 mt-[20px]">
-                        <p class="text-center desc">*************DESCRIPTION*********<br><br>Built With:**************</p>
-                    </div> -->
-
+                    <p class="title text-center text-red-200 mt-6">React<br>Complete Guide</p>
                 </div>
-
-                <!-- Column 5 (Placeholder) -->
-                <div class="w-1/6"></div>
             </section>
 
             <!-- Individual Projects Container -->

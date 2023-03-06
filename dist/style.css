@@ -8,6 +8,10 @@ h2 {
     font-size: 50px
 }
 
+.main h2 {
+    font-size: 60px;
+}
+
 .header {
     text-shadow: 0 0 8px rgb(253, 5, 191)
 }
@@ -23,7 +27,6 @@ h2 {
 .bio {
     text-shadow: 0 0 8px rgb(250, 29, 0);
     font-family: 'Petit Formal Script', cursive;    
-    font-size: 18px;
 }
 
 .project {
@@ -33,7 +36,7 @@ h2 {
 .title {
     text-shadow: 0 0 8px rgb(250, 29, 0);
     font-family: 'Neonderthaw', cursive;
-    font-size: 34px;
+        font-size: 2.8em;
 }
 
 .pj-icon {

@@ -5,11 +5,11 @@ Responsive portfolio page displaying web development projects, GitHub, LinkedIn,
   
 ## Getting Started
 
-The nav bar lists GitHub, Resumé, and LinkedIn. Clicking "GitHub" will open my my Github profile in a new tab. Clicking "Resumé" will open a downloadable pdf of my resume in a new tab. Clicking "LinkedIn" will open my LinkedIn profile in a new tab.
+The nav bar lists GitHub, Resumé, and LinkedIn. Clicking "GitHub" will open my my Github profile in a new tab. Clicking "Resumé" will open a readable copy of my resume in a new tab. Clicking "LinkedIn" will open my LinkedIn profile in a new tab.
 
 Each card in the "Projects" and "Collaborative Projects" sections display a screenshot of a project. Clicking on the GitHub icon above each card will take you to that project's GitHub repository. Clicking on the hyperlink icon will take you to the deployed page if applicable (no deployed page for Team Profile Generator as it is a CLI application).  
 
-At the bottom of the page are icons for contact information. Clicking the email icon will open a new email to be sent to my email address. Clicking the GitHub icon will open my GitHub profile in a new tab. Clicking the LinkedIn icon will open my LinkedIn profile in a new tab. Clicking the phone icon will prompt a call to my Google Voice phone number.  
+At the bottom of the page are icons for contact information. Clicking the email address or email icon will open a new email to be sent to my email address. Clicking the GitHub icon will open my GitHub profile in a new tab. Clicking the LinkedIn icon will open my LinkedIn profile in a new tab. Clicking the phone icon will prompt a call to my Google Voice phone number.  
 
   
 ## Essential Code

@@ -5,7 +5,7 @@ h1 {
 
 h2 {
     font-family: 'Neonderthaw', cursive;
-    font-size: 50px
+    font-size: 5em;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 }
 
 .nav {
-    text-shadow: 0 0 8px rgb(0, 250, 246)
+    text-shadow: 0 0 8px rgb(0, 250, 246);
 }
 
 .icon {
@@ -33,16 +33,13 @@ h3 {
 .bio {
     text-shadow: 0 0 8px rgb(250, 29, 0);
     font-family: 'Petit Formal Script', cursive;    
-}
-
-.project {
-    text-shadow: 0 0 8px rgb(75, 253, 5)
+    font-size: x-large;
 }
 
 .title {
-    text-shadow: 0 0 8px rgb(250, 29, 0);
+    text-shadow: 0 0 8px rgb(249 168 212);
     font-family: 'Neonderthaw', cursive;
-        font-size: 2.8em;
+    font-size: 2.8em;
 }
 
 .pj-icon {
